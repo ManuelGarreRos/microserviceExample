@@ -4,5 +4,8 @@ type Message struct {
 	Fact string `json:"fact"`
 }
 
-type PDF struct {
+type Circle struct {
+	id    string
+	name  string
+	users int
 }
