@@ -9,5 +9,5 @@ func main() {
 	svc = NewLoggingService(svc)
 
 	ApiServer := NewApiService(svc)
-	log.Fatal(ApiServer.start(":3000"))
+	log.Fatal(ApiServer.start(":8001"))
 }
