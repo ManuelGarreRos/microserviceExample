@@ -5,7 +5,7 @@ type Message struct {
 }
 
 type Circle struct {
-	id    string
-	name  string
-	users int
+	ID    string
+	Name  string
+	Users int
 }
